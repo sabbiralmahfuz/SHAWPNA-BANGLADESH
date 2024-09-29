@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid white;
+
+}
+
+.flexcontainer {
+    height: 50px;
+}
+
+.img0 {
+    height: 50px;
+    width: 100%;
+}
+
+.flexcontainer1 {
+    background-color: red;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    text-align: center;
+    gap: 5px;
+
+}
+
+/*ফ্লেক্স কইন্টেইনারের (1) বক্স সমূহের ডিজাইন শুরু*/
+
+.box1 {
+    flex-grow: 1;
+    align-content: center;
+
+
+
+}
+
+.box2 {
+flex-grow:0;
+    flex-shrink: 0;
+    align-content: center;
+
+
+
+
+}
+
+.box3 {
+flex-grow:1;
+    margin-left: 20px;
+    flex-basis: 550px;
+    align-content: center;
+
+
+}
+
+.box4 {
+
+    flex-grow: 2;
+
+    align-content: center;
+
+
+}
+
+.box5 {
+
+margin-right: 5px;
+    flex-grow: 1;
+    align-content: center;
+}
+
+.box6 {
+
+
+
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-content: center;
+
+}
+
+/*শেষ*/
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+/*ফ্লেক্সকইন্টেইনারের (1) এলিমেন্ট সমুহের ডিজাইন*/
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+p { color: white;
+    border: 1px solid white;
+    padding: 10px 0px 10px 0px;
+    border-radius: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    border-radius: 10px;
+}
+
+.download {
+    height: 42px;
+    width: auto;
+    margin-top: 0.3rem;
+}
+
+.button1 {
+    background-color: red;
+    border: 1px solid white;
+    padding: 8px 8px 8px 8px;
+    color: white;
+    border-radius: 10px;
+}
+
+.button2 {
+    border: 1px solid white;
+    background-color: red;
+    padding: 8px 8px 8px 8px;
+    color: white;
+    border-radius: 10px;
+}
+
+.img1 {
+    height: 45px;
+    width: auto;
+}
+
+
+
+/*এখান থেকে শেষ*/
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+/*২য় ফ্লেক্স কন্টেইনারের কাজ শুরু */
+
+.flexcontainer2 {
+    display: flex;
+    
+}
+
+.box7 {flex-grow: 4;
+    height: 60px;
+   
+
+
+}
+
+.box8 {
+    height: 60px;
+    flex-grow: 1;
+}
+
+.box9 {
+    height: 60px;
+    flex-grow:0;
+}
+
+.box10 {
+    height: 60px;
+    flex-grow:1;
+}
+
+.box11 {
+    height: 60px;
+    flex-grow: 5;
+    margin-right:15px;
+}
+
+.box12 {
+    height: 60px;
+    flex-grow:0;
+    
+}
+
+/*২য় কন্টেইনারের ইলিমেন্ট সমুহঃ*/
+
+.p1 {
+    width: 215px;
+    margin-left: 50px;
+    font-size: large;
+}
+
+.p2 {
+    width: 100%;
+    float: right;
+}
+
+.p3 {
+    width: 100%;
+    float: right;
+}
+
+.p4 {
+    float: right;
+    width: 100%;
+}
+
+.p5 {
+   float: right;
+    
+}
+
+.p6 {
+    float: right;
+    
+}
+
+.pp {color: black;
+    font-family: sans-serif;
+    text-align: center;
+    align-content: center
+}
+
+/*এখানে থেকে শেষ*/
+
+/*------------------------------------------------------------------------------*/
+
+/*শ্যাডো বক্স এর কাজ শুরু*/
+
+.boxshadow {
+    width: 320px;
+    height: auto;
+    margin-left: 49px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    /* Smooth transition */
+}
+
+.item {
+
+    margin-bottom: 5px;
+}
+
+.iimg {
+    height: 30px;
+    width: auto;
+}
+
+.item a {
+    color: black;
+    font-size: 20px;
+    position: relative;
+    bottom: 5px;
+}
+
+.item i {
+    float: right;
+    margin-top: 0.7rem;
+    opacity: 50%;
+}
+
+/*EXAMPLE CSS*/
+.example {
+    display: flex;
+    height: 100px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.l1 {
+    background-color: blue;
+    width: auto;
+    align-content: center;
+    flex-grow: 1;
+
+}
+
+.l2 {
+    background: red;
+    width: auto;
+    align-content: center;
+    flex-grow: 1;
+}
+
+.l3 {
+    background-color: magenta;
+    width: auto;
+    align-content: center;
+    flex-grow: 1;
+}
+
+.l4 {
+    background-color: skyblue;
+    width: auto;
+    align-content: center;
+    flex-shrink: 1;
+
+}
+
+.l5 {
+    background-color: brown;
+    width: auto;
+    align-content: center;
+    flex-shrink: 1;
+}
+
+.l6 {
+    background-color: orange;
+    width: auto;
+    align-content: center;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
