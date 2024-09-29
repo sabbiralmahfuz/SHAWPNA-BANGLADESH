@@ -95,6 +95,10 @@
     .example{
         display:none;
     }
+    .boxshadow{width: 260px;
+        height: auto;
+        position: relative;
+        right: 20px;
 }
 
 
